@@ -1,0 +1,150 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    display:block;
+    
+}
+
+.card-container {
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    height: 600px;
+    margin: 50% auto;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px auto;  
+}
+
+.image-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.image-overlay {
+    position:absolute;
+    top: 15px;
+    left: 24px;
+    width: 88%;
+    height: 92%;
+    border-radius: 10px;
+    background-color: #00ffff85;
+    opacity: 0;
+    transition: 0.25s;
+    cursor: pointer;   
+}
+
+.image-overlay:hover {
+    opacity: 1;
+}
+
+.icon-view {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+ }
+
+.image-cube {
+    width: 350px;
+    height: 290px;
+    border-radius: 10px;
+    position: relative;
+    margin: 15px auto 10px auto;
+}
+
+h1 {
+    color:hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 20px;
+    color: hsl(215, 51%, 70%);
+    width: 90%;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: 'Outfit',sans-serif;
+    font-weight: 400;
+    padding-left: 0;
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 15px;
+    
+    
+}
+
+.date-paragraph {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    display: inline;
+    text-align: justify;
+    padding-left: 140px;
+
+}
+
+hr {
+    width: 91%;
+    height: 0;
+    border: 0;
+    border-top: 1 px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.face {
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 50%;
+      max-width: 13%;
+      display: inline-block;
+      margin-top: 20px;
+          
+}
+
+
+.bottom-paragraph {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%); 
+    display: inline-block;
+    position: absolute;
+    padding-left: 15px;
+    margin-top: 30px;
+     
+}
+
+.bottom-container {
+    padding-right: 50px;
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%); 
+    position: relative;
+    
+}
+
